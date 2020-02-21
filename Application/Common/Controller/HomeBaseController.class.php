@@ -19,14 +19,14 @@ class HomeBaseController extends BaseController{
         if( !empty($smid) ) {
             session('smid', $smid);
         }
-
+/*
         if( $this->is_login() ) {
             $this->assign('is_login', 1);
             $this->assign('member', session('member'));
         } else {
             $this->assign('is_login', 0);
             $this->redirect('Public/login');
-        }
+        }*/
 
         $system_config = SystemConfigModel::get();
 //        var_dump($system_config);die;

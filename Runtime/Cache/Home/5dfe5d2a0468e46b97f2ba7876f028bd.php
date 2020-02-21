@@ -304,7 +304,7 @@
 
 
     <div class="login-inp" style="margin-bottom: 3px;background: #fff;">
-         <p>平台手续费约 ¥<span id="shouxu"></span></p>
+        <!-- <p>平台手续费约 ¥<span id="shouxu"></span></p>-->
          <p>本次发布需支付约 ¥<span id="all_money"></span>，请保证账户余额充足 <a style="color:#f92e4a" href="<?php echo U('Member/recharge_do');?>">去充值</a></p>
         <br>
         <p style="line-height: 14px">
@@ -426,8 +426,7 @@ $(document).ready(function(){
                 $("input[name='end_time']").focus();
                 return false;
             }
-            layer.msg('开放时间2020.03.05');
-            return false;
+         
             //
             var member_money = $('#member_money').val() * 1;
             var totalPrice   = $('#all_money').text() * 1;

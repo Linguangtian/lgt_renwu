@@ -37,6 +37,7 @@ class IndexController extends HomeBaseController{
 
     public function index()
     {
+
         if (isset($_REQUEST['start']) && !empty($_REQUEST['start'])) {
             $start = $_REQUEST['start'];
             $map = array();
