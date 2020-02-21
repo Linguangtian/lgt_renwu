@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>{$title}</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta name="description" content="" />
+
+	<!--JQ-->
+	<script type="text/javascript" src="__PUBLIC_JS__/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC_JS__/jquery-form.js"></script>
+	<script type="text/javascript" src="__PUBLIC_JS__/layer_mobile2/layer.js?{$version}"></script>
+	<script type="text/javascript" src="__PUBLIC_JS__/swiper.min.js"></script>
+
+	<script src="__PUBLIC_JS__/jquery.simplesidebar.js"></script>
+	<!--<script src="__PUBLIC_JS__/jquery.SuperSlide.2.1.1.js"></script>-->
+	<!--<script src="__PUBLIC_JS__/TouchSlide.1.0.js"></script>-->
+
+	<script type="text/javascript" src="__PUBLIC_JS__/func.js"></script>
+
+	<link rel="stylesheet" href="__PUBLIC_CSS__/share.css?3" />
+	<link rel="stylesheet" href="__PUBLIC_CSS__/font.css?3" />
+
+	<style>
+		.index_xslb_a {
+			background: url(/Public/statics/images/dp.png) 0 0 no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.index_xslb_b {
+			background: url(/Public/statics/images/kp.png) 0 0 no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.index_xslb_c {
+			background: url(/Public/statics/images/2.xhs.png) 0 0 no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.index_xslb_d {
+			background: url(/Public/statics/images/2.hs.png) 0 0 no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.index_xslb_e {
+			background: url(/Public/statics/images/2.tt.png) 0 0 no-repeat;
+			background-size: 100% 100%;
+		}
+
+		.lamp[data-v-4444cd4b] {
+			position: fixed;
+			z-index: 999;
+			left: 50%;
+			top: 0;
+			transform: translate(-50%);
+			width: 100%;
+			height: 32px;
+			background: #2e2e2e;
+			color: #9b9b9b
+		}
+
+		.lamp-img[data-v-4444cd4b] {
+			width: 24px;
+			height: auto;
+			margin: 5px 15px
+		}
+
+		.move-warp[data-v-4444cd4b] {
+			display: inline-block;
+			white-space: nowrap;
+			height: 100%;
+			-ms-flex-positive: 1;
+			flex-grow: 1;
+			position: relative;
+			overflow: hidden
+		}
+
+		.move[data-v-4444cd4b] {
+			width: 100%;
+			height: auto
+		}
+
+		.move-start[data-v-4444cd4b] {
+			animation: message-data-v-4444cd4b 22s linear infinite
+		}
+
+		.move-item[data-v-4444cd4b] {
+			height: 32px;
+			color: #9b9b9b;
+			font-size: 13px;
+			line-height: 32px;
+		}
+
+		.orange[data-v-4444cd4b] {
+			color: #fff
+		}
+
+		.org[data-v-4444cd4b] {
+			color: #f03851
+		}
+
+		@keyframes message-data-v-4444cd4b {
+
+			0%,
+			to {
+				transform: translateZ(0)
+			}
+
+			2%,
+			10%,
+			18.5% {
+				transform: translate3d(0, -10%, 0)
+			}
+
+			20%,
+			28.5% {
+				transform: translate3d(0, -20%, 0)
+			}
+
+			30%,
+			38.5% {
+				transform: translate3d(0, -30%, 0)
+			}
+
+			40%,
+			48.5% {
+				transform: translate3d(0, -40%, 0)
+			}
+
+			50%,
+			58.5% {
+				transform: translate3d(0, -50%, 0)
+			}
+
+			60%,
+			68.5% {
+				transform: translate3d(0, -60%, 0)
+			}
+
+			70%,
+			78.5% {
+				transform: translate3d(0, -70%, 0)
+			}
+
+			80%,
+			88.5% {
+				transform: translate3d(0, -80%, 0)
+			}
+
+			90%,
+			99.9999% {
+				transform: translate3d(0, -90%, 0)
+			}
+		}
+
+		.index_lb img {
+			border-radius: 6px
+		}
+
+		.swiper-slide {
+			width: 100% !important;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 0 6%;
+		}
+
+		.index_lb {
+			float: none;
+			margin-top: 0;
+			margin-left: 0%;
+			width: 100%;
+			background: none;
+		}
+
+		#oval {
+			width: 100%;
+			height: 100px;
+			background: #ff5196;
+			-moz-border-radius: 100px / 50px;
+			-webkit-border-radius: 100px / 50px;
+			border-radius: 100px / 50px;
+
+			margin-top: -50px;
+		}
+
+		.lamp[data-v-4444cd4b] {
+			position: relative;
+			background-color: #fff;
+		}
+
+		.row .col {
+			float: left;
+			box-sizing: border-box;
+		}
+
+		.category .col {
+			float: left;
+			width: 20% !important;
+			margin-top: 7px;
+			;
+		}
+
+		.category .content img {
+			width: 50px;
+			;
+		}
+
+		.category .content {
+			text-align: center;
+		}
+
+		.category .content span {
+			display: block;
+			margin-top: 1px;
+			margin-bottom: 5px;
+			;
+		}
+
+		/**/
+		.row .col.s6 {
+			width: 50%;
+			margin-left: auto;
+			left: auto;
+			right: auto;
+		}
+
+		.row .col.s8 {
+			width: 95%;
+			margin-left: 5%;
+			left: auto;
+			right: auto;
+		}
+
+		.chart-child .s8 span {
+			font-size: 10px;
+		}
+
+		.chart-child .s8,
+		.chart-child h3 {
+			/*color: #fff;*/
+		}
+
+
+		/*首页项目统计*/
+		.home-chart h3 {
+			font-size: 18px;
+		}
+
+		.chart-child {
+			height: 70px;
+			background: linear-gradient(90deg, #A722CC 30%, #fff);
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			padding: 5px !important;
+		}
+
+		.chart-child:nth-of-type(2) {
+			background: linear-gradient(90deg, #e81745 30%, #fff);
+			margin-bottom: 10px;
+		}
+
+		.chart-child:nth-of-type(3) {
+			background: linear-gradient(90deg, #028e04 30%, #fff);
+		}
+
+		.chart-child:nth-of-type(4) {
+			background: linear-gradient(90deg, #38f 30%, #fff);
+		}
+
+		.chart-child .s8,
+		.chart-child h3 {
+			color: #fff;
+		}
+
+		.chart-child .s8 span {
+			font-size: 10px
+		}
+
+		.chart-child .s8 p {
+			font-size: 12px;
+			margin: 0
+		}
+
+		.chart-child .s4 img {
+			width: 40px;
+			height: 40px;
+			margin-top: 9px;
+			border-radius: 50%;
+		}
+
+		/*首页项目统计*/
+
+
+		.index_tjrw {
+			margin-top: 10px;
+			height: 100%;
+		}
+
+		.index_rwxq img {
+			width: 4rem;
+			margin: 1rem 0.5rem;
+			height: 4rem;
+			;
+		}
+
+		.index_wzns {
+			width: 55%;
+			padding-top: 5px
+		}
+
+		.index_title {
+			display: -webkit-box;
+			min-height: 33px;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+		}
+
+		.index_rw_zxmss {
+			width: 100%;
+			height: 2rem;
+			background: #f5fafe;
+			border-radius: 0 0 0.5rem 0.5rem;
+		}
+
+		.index_rw_zxmss p {
+			width: 49%;
+			height: 2rem;
+			line-height: 2rem;
+			display: inline-block;
+			text-align: center;
+			font-size: 10px;
+		}
+	</style>
+</head>
+
+<body class="gray_bg" style="background:#fff;overflow-x: hidden">
+	<div id="body">
+		<!-- <h1 style="text-align: center;font-size: 20px;">新         手必读</h1> -->
+            <p style="font-size: 20px;color: #000;">0级普通推广员：每邀请以为新用户可获得0.5元奖励，额外加送下级团队总收益提成3.5%；</p>
+			<P style="font-size: 15px;color: #000;">&nbsp &nbsp ①铁圈推广员：团队总活跃人数达到100人每月保底分红800元；
+				（额外加送团队总收益提成8%）</P>
+			<P style="font-size: 15px;color: #000;">&nbsp &nbsp ②铜圈推广员：团队总活跃人数达到300人，每月保底分红1600元；
+				（额外加送团队总收益提成10%）</P>
+			<P style="font-size: 15px;color: #000;">&nbsp &nbsp ③银圈推广员：团队总活跃人数达到300人，每月保底分红2800元；
+				（额外加送团队总收益提成12%）</P>
+			<P style="font-size: 15px;color: #000;">&nbsp &nbsp ③银圈推广员：团队总活跃人数达到800人，每月保底分红4200元；
+				（额外加送团队总收益提成15%）</P>
+			<P style="font-size: 15px;color: #000;">&nbsp &nbsp ③银圈推广员：团队总活跃人数达到5000人，每月保底分红8000元；
+				（额外加送团队总收益提成22%）</P>
+            <!-- <p style="font-size: 20px;color: #000;">2.圈币怎么获得？</p>
+            <P style="font-size: 15px;color: #000;">&nbsp &nbspA。新注册用户系统随机赠送100-10000圈币；</P>
+            <P style="font-size: 15px;color: #000;">&nbsp &nbspB。注册成功的用户可以在app接任务，每个任务对应圈币奖励数额，用户完成任务以后，系统审核成功，即可获得圈币。</P>
+            <P style="font-size: 15px;color: #000;">&nbsp &nbspC。邀请朋友加入金朋友圈会员，可以获得一定数额的圈币奖励。</P>
+            <p style="font-size: 20px;color: #000;">3.佣金如何提现，多久可以到账? </p>
+            <P style="font-size: 15px;color: #000;">&nbsp &nbsp金朋友圈与支付宝及全国各大银行合作对接，满50元起即可申请提现，用户每星期一申请，48小时内支付。
+            推荐各位用户支付宝申请提现（财务审核/到账速度最快）请各位用户在每天做任务的时候，全部按照要求来做。
+            提现之前，认真核对自己的支付宝/银行卡账号跟姓名是否正确无误。</P> -->
+	</div>
+
+</body>
+
+</html>

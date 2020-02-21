@@ -1,0 +1,58 @@
+[ 2020-02-21T04:29:25+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Index
+
+[ 2020-02-21T04:29:29+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载控制器:Index
+
+[ 2020-02-21T04:29:54+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Undefined index: user E:\github\lgt\Application\Common\Controller\AdminBaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0166s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+
+[ 2020-02-21T04:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+

@@ -1,0 +1,187 @@
+<style type="text/css">
+    .footer {
+        height: 3.5rem;
+        border-top: 1px #f5f5f5 solid;
+        background: #fff;
+        osition: fixed;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #666666;
+    }
+    .footer ul {
+        overflow: hidden;
+    }
+    .footer li {
+        text-align: center;
+        width: 20%;
+        padding: 0;
+        height: 3.5rem;
+        float: left;
+    }
+    .footer li img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .active {
+       color: #f72844;font-size: 12px;
+    }
+
+    .footer li p {
+        margin-top: 0.2rem;
+        font-size: 12px;
+        line-height: 12px;
+        width: 100%;
+    }
+</style>
+<!--<footer class="footer">
+    <ul>
+        <li <if condition="CONTROLLER_NAME eq 'Index'"> class="active"</if> >
+            <a href="{:U('Index/index')}">
+                <span><i class="icon_home" style="width: 20px;height: 20px;"></i></span>
+                <p style="color: #e21330;font-size: 12px;">首页</p>
+            </a>
+        </li>
+&lt;!&ndash;<li <if condition="CONTROLLER_NAME eq 'Task'"> class="active"</if> >
+            <a href="{:U('Task/index')}">
+                <span><i class="icon_task" style="width: 20px;height: 20px;"></i></span>
+              <p>VIP</p>
+            </a>
+        </li>&ndash;&gt;
+
+
+
+        <li <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'notice'"> class="active"</if> >
+        <a href="{:U('Home/Page/show/id/6')}">
+            <span><i class="icon_xiaoxi" style="width: 20px;height: 20px;"></i></span>
+            <p>加盟 </p>
+            <span class="divright {$_SESSION['weidu_xiaoxi'] ? 'show':'hide'}">{$_SESSION['weidu_xiaoxi']}</span>
+        </a>
+        </li>
+
+
+
+       <li <if condition="CONTROLLER_NAME eq 'Task2'"> class="active"</if> >
+        <div class="fabu">
+            <a href="{:U('Task/handle')}" style="font-size: 25px">+</a>
+        </div>
+
+        </li>
+
+
+        <li <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'notice'"> class="active"</if> >
+        <a href="{:U('Member/notice')}">
+            <span><i class="task_a" style="width: 20px;height: 20px;"></i></span>
+            <p>大厅 </p>
+            <span class="divright {$_SESSION['weidu_xiaoxi'] ? 'show':'hide'}">{$_SESSION['weidu_xiaoxi']}</span>
+        </a>
+        </li>
+
+        &lt;!&ndash; <li <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'notice'"> class="active"</if> >
+           <a href="{:U('Member/notice')}">
+                <span><i class="icon_xiaoxi" style="width: 20px;height: 20px;"></i></span>
+             <p>消息 </p>
+               <span class="divright {$_SESSION['weidu_xiaoxi'] ? 'show':'hide'}">{$_SESSION['weidu_xiaoxi']}</span>
+            </a>
+        </li>
+
+        &ndash;&gt;
+        <li <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'index' "> class="active"</if> >
+            <a href="{:U('Member/index')}">
+                <span><i class="icon_user" style="width: 20px;height: 20px;"></i></span>
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+</footer>-->
+<footer class="footer">
+    <ul>
+        <a href="{:U('Index/index')}">
+            <li>
+                <if condition="CONTROLLER_NAME2 eq 'home_index'">
+                        <img src="/tpl/Public/images/home_b.png?v=1"/>
+                        <p class="active">首页</p>
+                    <else/>
+                        <img src="/tpl/Public/images/home_a.png?v=1"/>
+                        <p >首页</p>
+                 </if>
+            </li>
+        </a>
+
+
+        <a href="{:U('Home/Page/show/id/6')}">
+            <li>
+
+                <if condition="CONTROLLER_NAME eq 'Page'">
+                    <img src="/tpl/Public/images/page_b.png?v=1"/>
+                    <p class="active">加盟</p>
+                    <else/>
+                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
+                    <p >加盟</p>
+                </if>
+            </li>
+        </a>
+
+
+
+        </li>
+        <a href="{:U('Task/handle')}">
+            <li class="task_shop">
+                <img class="foot_shop" src="/tpl/Public/images/f_add_1.png?v=1"/>
+                <p>发布</p>
+            </li>
+        </a>
+
+        <a href="{:U('Index/serach')}">
+            <li>
+                <if condition="CONTROLLER_NAME2 eq 'search'">
+                    <img src="/tpl/Public/images/task_b.png"/>
+                    <p class="active">大厅</p>
+                    <else/>
+                    <img src="/tpl/Public/images/task_a.png"/>
+                    <p>大厅</p>
+                </if>
+
+            </li>
+        </a>
+
+        <a href="{:U('Member/index')}">
+            <li>
+                <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'index' ">
+                <img src="/tpl/Public/images/user_b.png"/>
+                <p class="active">我的</p>
+                 <else/>
+                    <img src="/tpl/Public/images/user_a.png"/>
+                    <p>大厅</p>
+                </if>
+            </li>
+        </a>
+
+    </ul>
+</footer>
+<script>
+    $(function () {
+        $('.footer').prev('div').css('margin-bottom','150px')
+        var intx=1;
+        function release_notice(){
+            if(intx == 1)   {
+                intx = 2;
+                path=  '/tpl/Public/images/page_b.png';
+            }else{
+                intx = 1;
+                path=  '/tpl/Public/images/page_a.png';
+            }
+            $("#notice").attr('src',path);
+        }
+
+
+        setInterval(release_notice,800);
+    })
+
+
+
+
+</script>

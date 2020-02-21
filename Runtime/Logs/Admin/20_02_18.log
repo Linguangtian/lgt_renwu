@@ -1,0 +1,1177 @@
+[ 2020-02-18T00:12:23+08:00 ] 222.129.187.157 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 3 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_member` ORDER BY `id` desc LIMIT 0,30   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51562 or p2=51562 or p3=51562 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51561 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51561 or p2=51561 or p3=51561 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51555 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51555 or p2=51555 or p3=51555 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51545 or p2=51545 or p3=51545 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51543 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51543 or p2=51543 or p3=51543 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51542 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 55 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 65 行.
+NOTIC: [8] Undefined index: keywords /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 71 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 76 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 78 行.
+NOTIC: [8] Undefined index: is_area /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2020-02-18T00:12:27+08:00 ] 222.129.187.157 /index.php/Admin/Member/handle/id/51562/role/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 51562 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2020-02-18T00:12:39+08:00 ] 222.129.187.157 /index.php/Admin/Member/handle/id/51562/role/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0006s ]
+SQL: UPDATE `dt_member` SET `role`='0',`nickname`='测试',`phone`='',`sex`='0',`address`='',`level`='3',`user_status`='1',`remark`='' WHERE `id` = 51562 [ RunTime:0.0002s ]
+
+[ 2020-02-18T00:12:39+08:00 ] 222.129.187.157 /index.php/Admin/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE `level` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_member` ORDER BY `id` desc LIMIT 0,30   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51562 or p2=51562 or p3=51562 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51561 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51561 or p2=51561 or p3=51561 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51555 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51555 or p2=51555 or p3=51555 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51545 or p2=51545 or p3=51545 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51543 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=51543 or p2=51543 or p3=51543 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `dt_member` WHERE `id` = 51542 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 55 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 56 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 65 行.
+NOTIC: [8] Undefined index: keywords /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 71 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 76 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 78 行.
+NOTIC: [8] Undefined index: is_area /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/c36ad2088ecfedbb1e6e6aebc8965af2.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2020-02-18T00:12:45+08:00 ] 222.129.187.157 /index.php/Admin/Level/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0003s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2020-02-18T00:12:59+08:00 ] 222.129.187.157 /index.php/Admin/Level/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+SQL: UPDATE `dt_level` SET `name`='尊敬的VIP会员',`price`='98.00',`rebate_price_1`='25.00',`rebate_price_2`='15.00',`rebate_price_3`='5.00',`rebate_price_4`='0.50',`day_limit_task_num`='0',`remark`='' WHERE `id` = 4 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2020-02-18T00:13:00+08:00 ] 222.129.187.157 /index.php/Admin/Level/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2020-02-18T00:13:16+08:00 ] 222.129.187.157 /index.php/Admin/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_task` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 68 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2020-02-18T00:13:20+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle/id/372.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dt_task` WHERE `id` = 372 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: copy /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 55 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 108 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 109 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 110 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 111 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2020-02-18T00:13:42+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle/id/372.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: update_time /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskController.class.php 第 65 行.
+NOTIC: [8] Undefined index: update_time /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskController.class.php 第 66 行.
+SQL: UPDATE `dt_task` SET `title`='任务二',`jinbin`='288',`type`='0',`taskuser`='',`level`='3',`tasklb`='1',`max_num`='0',`end_time`='1581955199',`thumb`='',`info`='',`content`='' WHERE `id` = 372 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0004s ]
+SQL: UPDATE `dt_task_apply` SET `end_time`='1581955199' WHERE `task_id` = 372 AND `is_end` = 0 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2020-02-18T00:13:43+08:00 ] 222.129.187.157 /index.php/Admin/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_task` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 68 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2020-02-18T00:15:06+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle/id/372.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dt_task` WHERE `id` = 372 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: copy /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 55 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 108 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 109 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 110 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 111 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2020-02-18T00:15:15+08:00 ] 222.129.187.157 /index.php/Admin/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_task` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 68 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2020-02-18T00:15:18+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 32 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 54 行.
+NOTIC: [8] Undefined index: copy /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 55 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 60 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 66 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 76 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 85 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 85 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 92 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 99 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 99 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 99 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 99 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 107 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 108 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 108 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 109 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 109 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 110 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 110 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 111 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 111 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 123 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 129 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 129 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 135 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 141 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2020-02-18T00:15:49+08:00 ] 222.129.187.157 /index.php/Admin/TaskApply/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM dt_task_apply a LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT a.*,b.title,b.level,b.type,c.username,c.phone,c.nickname FROM dt_task_apply a left JOIN dt_task as b on a.task_id = b.id left JOIN dt_member as c on a.member_id = c.id  ORDER BY a.id desc LIMIT 0,100   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+NOTIC: [8] Undefined index:  /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskApplyController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 72 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 78 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 79 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 91 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 98 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+NOTIC: [8] Undefined index: status /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/a02a0909f9f97a7187ac4977a5fa41bf.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2020-02-18T00:15:54+08:00 ] 222.129.187.157 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\CategoryModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/CategoryModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dt_category` ORDER BY order_number is null,`order_number`,`id`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2020-02-18T00:16:14+08:00 ] 222.129.187.157 /index.php/Admin/Category/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\CategoryModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/CategoryModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_category` [ RunTime:0.0004s ]
+SQL: UPDATE `dt_category` SET `id`='3',`name`='小红书悬赏',`desc`='显示测试',`ico`='/Upload/Category/thumb/5dab1c3d110d5.png',`is_show`='0',`order_number`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2020-02-18T00:16:15+08:00 ] 222.129.187.157 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\CategoryModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/CategoryModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dt_category` ORDER BY order_number is null,`order_number`,`id`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2020-02-18T00:16:34+08:00 ] 222.129.187.157 /index.php/Admin/Category/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\CategoryModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/CategoryModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_category` [ RunTime:0.0004s ]
+SQL: UPDATE `dt_category` SET `id`='3',`name`='小红书悬赏',`desc`='显示测试',`ico`='/Upload/Category/thumb/5dab1c3d110d5.png',`is_show`='1',`order_number`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2020-02-18T00:16:35+08:00 ] 222.129.187.157 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\CategoryModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/CategoryModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dt_category` ORDER BY order_number is null,`order_number`,`id`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2020-02-18T00:16:41+08:00 ] 222.129.187.157 /index.php/Admin/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_task` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 68 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2020-02-18T00:16:44+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle/id/372.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dt_task` WHERE `id` = 372 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: copy /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 55 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 108 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 109 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 110 行.
+NOTIC: [8] Undefined index: tasklb /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 111 行.
+NOTIC: [8] Use of undefined constant end_time - assumed 'end_time' /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2020-02-18T00:16:54+08:00 ] 222.129.187.157 /index.php/Admin/Task/handle/id/372.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: update_time /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskController.class.php 第 65 行.
+NOTIC: [8] Undefined index: update_time /www/wwwroot/47.114.74.253/Application/Admin/Controller/TaskController.class.php 第 66 行.
+SQL: UPDATE `dt_task` SET `title`='任务二',`jinbin`='288',`type`='0',`taskuser`='',`level`='0',`tasklb`='1',`max_num`='0',`end_time`='1581955199',`thumb`='',`info`='',`content`='' WHERE `id` = 372 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0004s ]
+SQL: UPDATE `dt_task_apply` SET `end_time`='1581955199' WHERE `task_id` = 372 AND `is_end` = 0 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2020-02-18T00:16:55+08:00 ] 222.129.187.157 /index.php/Admin/Task/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0004s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: map /www/wwwroot/47.114.74.253/Application/Common/Controller/AdminBaseController.class.php 第 112 行.
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/47.114.74.253/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_task` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 54 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: level /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 62 行.
+NOTIC: [8] Undefined index: start_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 68 行.
+NOTIC: [8] Undefined index: end_date /www/wwwroot/47.114.74.253/Runtime/Cache/Admin/50e054dd6e9446b43f58e54b1cb79bed.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2020-02-18T17:00:41+08:00 ] 45.143.221.47 //admin/config.php?password%5B0%5D=ZIZO&username=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载控制器:Config.php
+
+[ 2020-02-18T17:21:03+08:00 ] 59.36.119.227 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2020-02-18T17:21:05+08:00 ] 59.36.119.227 /index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2020-02-18T22:05:23+08:00 ] 211.162.237.66 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/wwwroot/47.114.74.253/Application/Common/Model/AdminNavModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `dt_admin_nav` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `dt_admin_nav` ORDER BY order_number is null,`order_number`,`id`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2020-02-18T22:05:26+08:00 ] 211.162.237.66 /index.php/Admin/Index/tongji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `dt_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER JOIN dt_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','187','188','189','190','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','192','161','165','166','167','147','162','163','179','180','181','191','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_member_tixian` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member_tixian` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_pay` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_member_tixian` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_member` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_pay` WHERE ( ( create_time >= 1581868800 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_pay` WHERE ( ( create_time >= 1581350400 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_pay` WHERE ( ( create_time >= 1579363200 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE `status` = 2 AND ( ( create_time >= 1581868800 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE `status` = 2 AND ( ( create_time >= 1581350400 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE `status` = 2 AND ( ( create_time >= 1579363200 and create_time < 1581955200 ) ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: select sum(price) as sub_total_price, count(id) as sub_number, FROM_UNIXTIME(create_time, '%Y-%m-%d' ) as `date` from dt_pay where 1 and ( create_time >= 1579363200 and create_time < 1582041599 ) GROUP BY FROM_UNIXTIME(create_time, '%Y%m%d' ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
