@@ -15,7 +15,7 @@
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
-define('APP_DEBUG',true);
+define('APP_DEBUG',false);
 
 // 定义应用目录
 define('APP_PATH','./Application/');
@@ -31,6 +31,7 @@ define("UPLOAD_PATH","./Upload/");
 
 // 定义oss的url
 define("OSS_URL","");
+define("CSSVERSION","101");
 
 define('SITE_PATH', getcwd());//网站当前路径
 

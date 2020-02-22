@@ -112,28 +112,7 @@
         </a>
 
 
-        <a href="{:U('Home/Page/show/id/6')}">
-            <li>
 
-                <if condition="CONTROLLER_NAME eq 'Page'">
-                    <img src="/tpl/Public/images/page_b.png?v=1"/>
-                    <p class="active">加盟</p>
-                    <else/>
-                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
-                    <p >加盟</p>
-                </if>
-            </li>
-        </a>
-
-
-
-        </li>
-        <a href="{:U('Task/handle')}">
-            <li class="task_shop">
-                <img class="foot_shop" src="/tpl/Public/images/f_add_1.png?v=1"/>
-                <p>发布</p>
-            </li>
-        </a>
 
         <a href="{:U('Index/serach')}">
             <li>
@@ -145,6 +124,44 @@
                     <p>大厅</p>
                 </if>
 
+            </li>
+        </a>
+
+        </li>
+        <a href="{:U('Task/handle')}">
+            <li class="task_shop">
+                <img class="foot_shop" src="/tpl/Public/images/f_add_1.png?v=1"/>
+                <p>发布</p>
+            </li>
+        </a>
+
+
+  <!--      <a href="{:U('Home/Page/show/id/6')}">
+            <li>
+
+                <if condition="CONTROLLER_NAME eq 'Page'">
+                    <img src="/tpl/Public/images/page_b.png?v=1"/>
+                    <p class="active">加盟</p>
+                    <else/>
+                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
+                    <p >加盟</p>
+                </if>
+            </li>
+        </a>-->
+
+
+
+
+        <a href="{:U('Member/notice')}">
+            <li>
+
+                <if condition="CONTROLLER_NAME eq 'Member' and ACTION_NAME eq 'notice'">
+                    <img src="/tpl/Public/images/page_b.png?v=1"/>
+                    <p class="active">消息</p>
+                    <else/>
+                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
+                    <p >消息</p>
+                </if>
             </li>
         </a>
 
@@ -178,7 +195,7 @@
         }
 
 
-        setInterval(release_notice,800);
+       // setInterval(release_notice,800);
     })
 
 

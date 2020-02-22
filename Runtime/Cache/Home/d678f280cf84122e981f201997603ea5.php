@@ -318,26 +318,7 @@
         </a>
 
 
-        <a href="<?php echo U('Home/Page/show/id/6');?>">
-            <li>
 
-                <?php if(CONTROLLER_NAME == 'Page'): ?><img src="/tpl/Public/images/page_b.png?v=1"/>
-                    <p class="active">加盟</p>
-                    <?php else: ?>
-                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
-                    <p >加盟</p><?php endif; ?>
-            </li>
-        </a>
-
-
-
-        </li>
-        <a href="<?php echo U('Task/handle');?>">
-            <li class="task_shop">
-                <img class="foot_shop" src="/tpl/Public/images/f_add_1.png?v=1"/>
-                <p>发布</p>
-            </li>
-        </a>
 
         <a href="<?php echo U('Index/serach');?>">
             <li>
@@ -347,6 +328,40 @@
                     <img src="/tpl/Public/images/task_a.png"/>
                     <p>大厅</p><?php endif; ?>
 
+            </li>
+        </a>
+
+        </li>
+        <a href="<?php echo U('Task/handle');?>">
+            <li class="task_shop">
+                <img class="foot_shop" src="/tpl/Public/images/f_add_1.png?v=1"/>
+                <p>发布</p>
+            </li>
+        </a>
+
+
+  <!--      <a href="<?php echo U('Home/Page/show/id/6');?>">
+            <li>
+
+                <?php if(CONTROLLER_NAME == 'Page'): ?><img src="/tpl/Public/images/page_b.png?v=1"/>
+                    <p class="active">加盟</p>
+                    <?php else: ?>
+                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
+                    <p >加盟</p><?php endif; ?>
+            </li>
+        </a>-->
+
+
+
+
+        <a href="<?php echo U('Member/notice');?>">
+            <li>
+
+                <?php if(CONTROLLER_NAME == 'Member' and ACTION_NAME == 'notice'): ?><img src="/tpl/Public/images/page_b.png?v=1"/>
+                    <p class="active">消息</p>
+                    <?php else: ?>
+                    <img id="notice"  src="/tpl/Public/images/page_a.png"/>
+                    <p >消息</p><?php endif; ?>
             </li>
         </a>
 
@@ -378,7 +393,7 @@
         }
 
 
-        setInterval(release_notice,800);
+       // setInterval(release_notice,800);
     })
 
 
