@@ -15,7 +15,7 @@
 //从网页传入price:支付价格， istype:支付渠道：1-支付宝；2-微信支付
 $price      = $_POST["price"];
 $type      = $_POST["istype"];
-$type = $type=='1' ? 'alipay' :'wxpay';
+$type = $type=='1' ? 'alipay' :'qqpay';
 $HOST_URL  = "http://pay.r3o.cn/submit.php?";
 $order_no = 'VS10101';
 $goodsname = "充值";

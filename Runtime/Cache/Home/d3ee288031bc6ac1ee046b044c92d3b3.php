@@ -9,7 +9,7 @@
     <title>积分充值</title>
 
     <link rel="stylesheet" href="/tpl/Public/css/share.css?3.0">
-    <link rel="stylesheet" href="/tpl/Public/css/font.css?2.0">
+    <link rel="stylesheet" href="/tpl/Public/css/font.css?3.0">
     <link rel="stylesheet" href="/tpl/Public/css/ystep.css" type="text/css">
 
     <!--JQ-->
@@ -99,7 +99,7 @@
         <i class="alipay"></i> 支付宝支付 <span></span>
     </label>
     <label data-key="wxpay">
-        <i class="wxpay"></i> 微信支付 <span></span>
+        <i class="qqpay"></i> QQ钱包 <span></span>
     </label>
     <label style="padding:0">*如需帮助，可联系客服人工充值</label>
     <button type="button" class="cancel vip_lijisj">取消</button>
